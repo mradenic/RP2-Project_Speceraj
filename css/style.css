@@ -1,0 +1,175 @@
+#navbar{
+  padding:10px;
+  position: relative;
+  top: 0
+}
+#navbar ul{
+  list-style: none;
+  padding:0;
+  font-family: Trocchi;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+    font-size: 40px;
+    font-family: Trocchi;
+    font-size: 60px;
+    overflow: hidden;
+    position: relative;
+    left: 15%;
+}
+#navbar li{
+  display:inline;
+  color: white;
+}
+
+#navbar a{
+  color: #7c795d;
+  text-decoration: none;
+  font-size:35px;
+  padding-right:30px;
+}
+.text{
+  font-size: 30px;
+}
+#btn-signin, #btn-signup, #btn-signout{
+    border: 1px solid rgba(49, 28, 51, 0.438) ;
+    background-color: rgba(247, 122, 199, 0.418);
+    border-radius: 20px;
+    height: 60px;
+    width: 100px;
+    font-size: 18px;
+    position:relative;
+    left:90%;
+    font-family: Trocchi;
+    color: #2e2e1f;
+}
+
+.dodajUkosaricu{
+  border: 1px solid rgba(49, 28, 51, 0.438) ;
+  background-color: rgba(247, 122, 199, 0.418);
+  border-radius: 20px;
+  height: 60px;
+  width: 100px;
+  font-size: 18px;
+  position:relative;
+  float:right;
+  left:0;
+}
+
+ul.products{
+  list-style-type: none;
+  margin: 0;
+  left:0;
+  font-size: 20px;;
+  overflow: hidden;
+}
+
+li.products {
+  color:#7c795d;
+  font-family: Trocchi;
+  font-size: 30px;
+  float: left;
+  padding: 10px;
+  width: 90%;
+  border: 10px solid #d9b38c;
+  background-color:#ffdd99;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.proizvod {
+  color:#7c795d;
+  font-family: Trocchi;
+  float: left;
+  padding: 10px;
+  width: 90%;
+  border: 10px solid #d9b38c;
+  background-color:#ffdd99;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.podnaslov{
+  font-size: 40px;
+  font-family: 'Source Sans Pro';
+  color: #ff794d;
+}
+
+#srch{
+  border: 1px solid rgba(49, 28, 51, 0.438) ;
+  background-color: rgba(247, 122, 199, 0.418);
+  border-radius: 20px;
+  height: 60px;
+  width: 300px;
+  font-size: 18px;
+  font-family: Trocchi;
+  color: #2e2e1f;
+
+}
+.akcija{
+  color: red;
+  text-decoration: line-through;
+
+}
+
+.novo{
+  color:red;
+}
+
+
+body{
+  background-color:  #ffeee6;
+}
+
+select{
+  background-color: rgba(167, 64, 153, 0.192);
+  border-radius: 20px;
+  height: 60px;
+  width: 200px;
+  font-size: 20px;
+}
+
+.sort{
+  background-color: rgba(167, 64, 153, 0.192);
+  border-radius: 20px;
+  height: 30px;
+  width: 120px;
+  font-size: 20px;
+}
+
+.div-popis{
+  color:#7c795d;
+  font-family: Trocchi;
+  float: left;
+  padding: 10px;
+  width: 90%;
+  border: 10px solid #d9b38c;
+  background-color:#ffdd99;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#obrisi_proizvod{
+  border: 1px solid rgba(49, 28, 51, 0.438) ;
+  background-color: rgba(247, 122, 199, 0.418);
+  border-radius: 20px;
+  height: 60px;
+  width: 100px;
+  font-size: 18px;
+  position:relative;
+  float:right;
+  left:0;
+}
+
+#nadi_najpovoljnije{
+  border: 1px solid rgba(49, 28, 51, 0.438) ;
+  background-color: rgba(247, 122, 199, 0.418);
+  border-radius: 20px;
+  height: 60px;
+  width: 200px;
+  font-size: 18px;
+  /*position:relative;*/
+
+  left:0;
+}
